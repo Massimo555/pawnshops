@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Details</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+		.details-container{
+			background: #ffffff;
+			color: #000;
+		}
+		.img-fluid{
+			width: 400px;
+			height: 500px;
+			margin-left: 20px;
+		}
+		.title-color{
+			color: #ffa010;
+		}
+		.title-color2{
+			color: #45d615;
+		}
+		.lead{
+			color: #000;
+		}
+		.seller{
+			color: #ee4143;
+		}
+		.span{
+			font-weight: bold;
+			color: #ee4143;
+		}
+	</style>
+</head>
+<body>
+    <header>
+    	<!-- nav area starts here  -->
+    <div class="nav-area fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg  w-100">
+           <a class="navbar-brand" href="index.html"><div class="logo">
+              <a href="index.html" class="d-flex flex-row align-items-end justify-content-start">
+                <span class="logo_bars mb-4 mt-2 d-flex flex-row align-items-end justify-content-between"><span></span><span></span><span></span><span></span><span></span></span>
+                <span class="logo_text mb-4">PAWN<span class="logo-log">SHOP</span></span>
+              </a>
+            </div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            <i class="fa fa-bars"></i>
+            </span>
+        </button>
+        <!-- search button -->
+        <form class="form-inline my-2 my-lg-0" style="margin-left: 200px;">
+           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+   <!-- navbar collapse area starts here -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+             <ul class="navbar-nav">
+             <li class="nav-item">
+                <a class="nav-link achor" href="login.html">Login</a>
+             <li class="nav-item">
+               <a class="nav-link anchor" href="register.html">Register</a>
+             <li class="nav-item">
+               <button class="nav-link btn btnnav"><a href="register.html">PAWN</a></button>
+             </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+    <!-- details section area-->
+    <section>
+    	<div class="container details-container">
+    	   	 <div class="row mt-5">
+                <div class="col-10 mx-auto text-center text-slanted text-blue my-5">
+                  <h1>Product Details</h1>
+                </div>
+              </div>
+              <!-- end title -->
+
+               <!-- product info -->
+              <div class="row">
+                 <!-- product image -->
+                <div class="col-10 mx-auto col-md-6 my-3 ">
+                  <img src="images/img/item10.jpg" class="img-fluid" alt="product " />
+                </div>
+                  <!-- product details -->
+                <div class="col-10 mx-auto col-md-6 my-3 text-capitalize">
+                  <h4 class="title-color"><i class="fas fa-mobile-alt mr-2"></i>Model : Note 10</h4>
+                  <h5 class="title-color text-title text-uppercase text--muted mt-3 mb-2"><i class="fas fa-building"></i>
+                    Made by : <span class="text-uppercase">Samsung</span>
+                  </h5>
+                  <h4 class="text-blue"><i class="fas fa-tags"></i>
+                    <strong>
+                      Price : <span>#</span>
+                      45,000
+                    </strong>
+                  </h4>
+                  <p class="title-color2 text-capitalize font-weight-bold mt-3 mb-0">
+                    Some info about product:
+                  </p>
+                  <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <div class="mt-3">
+                    <h3 class="seller">Seller Contact</h3>
+                    <p><i class="fas fa-envelope-square"></i><span class="span ml-2">Email:</span> Sellerexample@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i><span class="span ml-2">Mobile No:</span> +08147305472</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i><span class="span ml-2">Location:</span> ikeja, lagos</p>
+                  </div>
+                  <a href="buy.html"><button class="btn btn-outline-primary">Back To Buying Section</button></a>
+                </div>
+              </div>
+    	   </div>
+    </section>
+    <!-- footer area start here -->
+    <section style="margin-top: 80px;">
+  <footer class="bg-dark col-12 ">
+      <div class="container-fluid mb-5">
+        <h2 class="text-center text-light">PAWN<span class="title-color">SHOP</span></h2>
+
+        <div class="row">
+          <div class="col-6 offset-3">
+            <ul class="navbar nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+                <span class="text-light">|</span>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+                <span class="text-light">|</span>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+
+              <span class="text-light">|</span>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Terms</a>
+              </li>
+
+
+              <span class="text-light">|</span>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+
+              <span class="text-light">|</span>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Job</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 offset-3">
+            <ul class="navbar nav">
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: -20px; color: #fff;">
+      	 <h5 class="text-center mb-3">Copyright From Somatech Company</h5>
+      </div>
+      <br>
+      <br>
+    </footer>
+
+  </section>
+
+
+
+   <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script> 
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+</html>

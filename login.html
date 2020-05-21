@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    body{
+      background-color: #ffa010;
+  color: #000;
+  width: 100%;
+  height: 100%;
+    }
+    .login-form{
+      margin-top: 150px;
+      background: #ffffff;
+      border: 3px solid #000;
+      border-radius: 10px;
+      width: 550px;
+      height: 400px;
+    }
+    form{
+     margin-top: 0px;
+    }
+    .form-control{
+      width: 500px;
+    }
+    .btnlog{
+      width: 500px;
+      background: #ffa010;
+      border: 2px solid #fff;
+    }
+    .btnnav{
+      background: #ffa010;
+      width: 100px;
+      height: 35px;
+    }
+    .anchor{
+      color: #fff;
+    }
+    
+    .btnnav a{
+      color: #fff;
+    }
+    .nav-area{
+      background: #262626;
+      color:#fff;
+      height: 70px;
+    }
+    .logo a{
+      margin-top: -20px;
+      text-transform: uppercase;
+      font-size: 30px;
+      color: #fff;
+    }
+    .logo-log{
+      color:#ffa010; 
+    }
+    .form-control{
+      background: #e0e1e3;
+    }
+    
+  </style>
+</head>
+<body>
+   <!-- nav area starts here  -->
+    <div class="nav-area fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg w-100">
+           <a class="navbar-brand" href="index.html"><div class="logo">
+              <a href="index.html" class="d-flex flex-row align-items-end justify-content-start">
+                <span class="logo_bars mb-4 mt-2 d-flex flex-row align-items-end justify-content-between"><span></span><span></span><span></span><span></span><span></span></span>
+                <span class="logo_text mb-4">PAWN<span class="logo-log">SHOP</span></span>
+              </a>
+            </div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            <i class="fa fa-bars"></i>
+            </span>
+        </button>
+   <!-- navbar collapse area starts here -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+             <ul class="navbar-nav">
+             <li class="nav-item">
+                <a class="nav-link achor" href="login.html">Login</a>
+             <li class="nav-item">
+               <a class="nav-link anchor" href="register.html">Register</a>
+             <li class="nav-item">
+               <button class="nav-link btn btnnav"><a href="register.html">PAWN</a></button>
+             </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  <div class="container login-form">
+    <form>
+      <br>
+      <h4 class="text-center">LOGIN</h4>
+  <div class="form-group mt-5 ">
+    <span><i class="fas fa-envelope-square"></i></span>
+    <label for="inputEmail">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+  </div>
+  <div class="form-group"><span><i class="fas fa-key"></i></span>
+    <label for="inputPassword">Password</label>
+    <span></span><input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+  </div>
+  <div class="row">
+  <div class="form-group col-md-6">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck" >
+      <label class="form-check-label" for="gridCheck">
+        Remember Me
+      </label>
+    </div>
+  </div>
+  <div class="form-group col-md-6">
+    <div class="">
+      <p>Don't Have Account: <a href="register.html">Register</a></p>
+    </div>
+  </div>
+</div>
+  <button type="submit" class="btn btnlog btn-success">Login in</button>
+</form>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+</body>
+</html>
